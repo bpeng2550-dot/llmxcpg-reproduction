@@ -1,0 +1,35 @@
+# Model, dataset and runtime material
+models/
+cache/
+envs/
+data/
+src-frozen/
+work/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+# Credentials and machine-specific files
+.env
+.env.*
+!example.env
+*.pem
+*.key
+.ssh/
+.private/
+# Raw evidence stays private until review
+*predictions*.jsonl
+*server-artifacts*.zip
+run.log
+*.tar
+*.tar.gz
+*.zip
+.DS_Store
+Thumbs.db

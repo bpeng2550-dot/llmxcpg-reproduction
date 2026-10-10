@@ -1,0 +1,12 @@
+# Verified server Python 3.11.17 / Linux environment. Publication does not require reinstalling.
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch==2.5.1+cu124
+transformers==4.47.1
+peft==0.14.0
+bitsandbytes==0.45.0
+accelerate==1.2.1
+huggingface-hub==0.27.0
+numpy==1.26.4
+tqdm==4.67.1
+jsonlines==4.0.0
+scikit-learn==1.5.2
