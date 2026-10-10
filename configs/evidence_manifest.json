@@ -1,0 +1,86 @@
+{
+  "collected_at_utc": "2026-10-10T03:56:17.338333+00:00",
+  "files": [
+    {
+      "archive_path": "inference/detect_local_offline.py",
+      "bytes": 16213,
+      "sha256": "4bee84d5be2b79a218e4ab2c8a77099596d1939b7b452973efad38d973c10026"
+    },
+    {
+      "archive_path": "upstream/detect_inference.py",
+      "bytes": 14802,
+      "sha256": "bb8908cb68deb1e9cc3a5fabe23698a828652b68a7629f5783bcde3ca09c0c6f"
+    },
+    {
+      "archive_path": "prompts/detect_system_prompt.txt",
+      "bytes": 1410,
+      "sha256": "1c0bd31a0b35b97cf9cebf410fa8c265273b2980fc5b9647678b106f08f20f9f"
+    },
+    {
+      "archive_path": "upstream/LICENSE",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "archive_path": "evidence/threshold_recheck_050_0547.json",
+      "bytes": 942,
+      "sha256": "c0c7195d6af4f3a73682ef3ad411ea9931f335d858cb09edfe25186b5e2c8622"
+    },
+    {
+      "archive_path": "evidence/predictions.jsonl",
+      "bytes": 261199,
+      "sha256": "99eefd3db3d94db76095444dbdd151ac03703109781cf835d1d6a84c6e2df2ad"
+    },
+    {
+      "archive_path": "evidence/run.log",
+      "bytes": 13184,
+      "sha256": "aa77ea48b779334c2ddf105a50a8665c418f5a9c31b774437f6355d973d82ca0"
+    },
+    {
+      "archive_path": "evidence/formai_input.json",
+      "bytes": 605164,
+      "sha256": "43ae6acc6e16ae294d77438a621bd110cd27b4888fb05570ee495a9b36e6732b"
+    },
+    {
+      "archive_path": "configs/adapter_config.json",
+      "bytes": 802,
+      "sha256": "35c14dd0aaa0c5122e77cf77094102a10a9efa14339ae7ca041c80df27957af7"
+    },
+    {
+      "archive_path": "configs/base_model_config.json",
+      "bytes": 1209,
+      "sha256": "26ade15a52d79e0d244ecdbd9bf3f05a0ba964265dd912b975e5cc31cbd7a1b0"
+    },
+    {
+      "archive_path": "evidence/formai_smoke4_manifest.json",
+      "bytes": 446,
+      "sha256": "fa78786030b72e3264d44944dcc315da5faa21e1a64e441f606e839e484463f7"
+    },
+    {
+      "archive_path": "evidence/tsv/QwQ-32B-Preview-bnb-4bit_formai_avengers_test_instruction_metrics.tsv",
+      "bytes": 208,
+      "sha256": "b1f5583dfeeb485b47db21c52799ceacdd1333e4417d024745e38825312a8495"
+    },
+    {
+      "archive_path": "evidence/tsv/final_inference_results.tsv",
+      "bytes": 168,
+      "sha256": "0d24721c709bd46f6d246affdcf79110f6c4253d9b24af50394a83a93831eada"
+    }
+  ],
+  "environment": {
+    "python": "3.11.17",
+    "packages": {
+      "torch": "2.5.1+cu124",
+      "transformers": "4.47.1",
+      "peft": "0.14.0",
+      "bitsandbytes": "0.45.0",
+      "accelerate": "1.2.1",
+      "huggingface-hub": "0.27.0",
+      "numpy": "1.26.4",
+      "tqdm": "4.67.1",
+      "jsonlines": "4.0.0",
+      "scikit-learn": "1.5.2"
+    }
+  },
+  "no_gpu_inference_during_export": true
+}
