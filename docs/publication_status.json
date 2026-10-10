@@ -1,0 +1,20 @@
+{
+  "target_repository": "bpeng2550-dot/llmxcpg-reproduction",
+  "target_visibility": "public",
+  "server_evidence_collected": true,
+  "metrics_recomputed_from_saved_probabilities": true,
+  "original_script_byte_identical": true,
+  "full_gpu_evaluation_rerun_for_publication": false,
+  "completed_stages": [
+    "LLMxCPG-D offline deployment",
+    "FormAI 383 evaluation",
+    "fixed-threshold recalculation",
+    "source and result archival"
+  ],
+  "pending_reproduction_stages": [
+    "LLMxCPG-Q",
+    "Joern CPG query and slicing",
+    "other datasets",
+    "end-to-end pipeline"
+  ]
+}
