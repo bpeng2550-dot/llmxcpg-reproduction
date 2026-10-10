@@ -1,0 +1,59 @@
+{
+  "evidence_status": "recomputed_from_saved_prediction_file",
+  "prediction_file": "scores.jsonl",
+  "prediction_sha256": "b326a18a901fd95c3a81b654773b00733325b1eb9c1b387786e20239d3275367",
+  "class_distribution": {
+    "benign": 198,
+    "vulnerable": 185
+  },
+  "probability_boundaries": {
+    "equals_0_5": 4,
+    "equals_0_547": 0
+  },
+  "original_threshold": {
+    "threshold": 0.5,
+    "rule": ">=",
+    "total_samples": 383,
+    "predicted_vulnerable": 197,
+    "predicted_benign": 186,
+    "accuracy": 0.9634464751958225,
+    "precision": 0.934010152284264,
+    "recall": 0.9945945945945946,
+    "f1": 0.9633507853403142,
+    "confusion_matrix": {
+      "tp": 184,
+      "fp": 13,
+      "fn": 1,
+      "tn": 185
+    }
+  },
+  "paper_threshold": {
+    "threshold": 0.547,
+    "rule": ">",
+    "total_samples": 383,
+    "predicted_vulnerable": 193,
+    "predicted_benign": 190,
+    "accuracy": 0.9530026109660574,
+    "precision": 0.9326424870466321,
+    "recall": 0.972972972972973,
+    "f1": 0.9523809523809523,
+    "confusion_matrix": {
+      "tp": 180,
+      "fp": 13,
+      "fn": 5,
+      "tn": 185
+    }
+  },
+  "source": "Real saved server predictions; public scores retain every probability and label, replacing code with SHA256.",
+  "raw_prediction_sha256": "99eefd3db3d94db76095444dbdd151ac03703109781cf835d1d6a84c6e2df2ad",
+  "dataset_sha256": "43ae6acc6e16ae294d77438a621bd110cd27b4888fb05570ee495a9b36e6732b",
+  "reported_runtime": {
+    "gpu": "NVIDIA RTX 6000 Ada Generation",
+    "start_server_log": "2026-10-10 10:44:03",
+    "end_server_log": "2026-10-10 10:48:46",
+    "inference_elapsed_seconds_rounded": 283,
+    "peak_allocated_vram_gib": 20.62,
+    "peak_vram_method": "torch.cuda.max_memory_allocated()",
+    "timestamp_timezone": "Server timestamp timezone not independently confirmed"
+  }
+}
