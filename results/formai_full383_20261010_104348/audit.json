@@ -1,0 +1,18 @@
+{
+  "samples": 383,
+  "labels": {
+    "benign": 198,
+    "vulnerable": 185
+  },
+  "code_label_multisets_match": true,
+  "unique_code_label_pairs": 175,
+  "metric_objects_match_server_recheck": true,
+  "processing_classes_unchanged_ast": {
+    "DataProcessor": true,
+    "InferenceEngine": true,
+    "MetricsCalculator": true,
+    "ResultsHandler": true
+  },
+  "no_gpu_inference_rerun": true,
+  "original_source_sha256": "4bee84d5be2b79a218e4ab2c8a77099596d1939b7b452973efad38d973c10026"
+}
