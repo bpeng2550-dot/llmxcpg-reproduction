@@ -1,0 +1,38 @@
+{
+  "prediction_file": "Original server JSONL; SHA256 recorded in metrics.json",
+  "original_threshold": {
+    "threshold": 0.5,
+    "rule": ">=",
+    "total_samples": 383,
+    "predicted_vulnerable": 197,
+    "predicted_benign": 186,
+    "accuracy": 0.9634464751958225,
+    "precision": 0.934010152284264,
+    "recall": 0.9945945945945946,
+    "f1": 0.9633507853403142,
+    "confusion_matrix": {
+      "tp": 184,
+      "fp": 13,
+      "fn": 1,
+      "tn": 185
+    }
+  },
+  "paper_threshold": {
+    "threshold": 0.547,
+    "rule": ">",
+    "total_samples": 383,
+    "predicted_vulnerable": 193,
+    "predicted_benign": 190,
+    "accuracy": 0.9530026109660574,
+    "precision": 0.9326424870466321,
+    "recall": 0.972972972972973,
+    "f1": 0.9523809523809523,
+    "confusion_matrix": {
+      "tp": 180,
+      "fp": 13,
+      "fn": 5,
+      "tn": 185
+    }
+  },
+  "publication_note": "Server JSON copied with prediction_file path replaced; metric objects are unchanged."
+}
