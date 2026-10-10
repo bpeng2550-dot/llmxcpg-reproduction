@@ -1,0 +1,36 @@
+{
+  "evidence_status": "Local configuration files verified against server export; weight checksums and revisions retained from handoff without rereading 20 GB of weights.",
+  "base_model": {
+    "repo_id": "unsloth/QwQ-32B-Preview-bnb-4bit",
+    "url": "https://huggingface.co/unsloth/QwQ-32B-Preview-bnb-4bit",
+    "revision": "8827dd400f326edcaabd655a8559f9da89f2a6e4",
+    "quantization": "Pre-quantized NF4 4-bit with double quantization; not quantized by this project",
+    "sha256": {
+      "model-00001-of-00004.safetensors": "305a922888d3f8dd45c5ceb017a9ea67bcc3d1b8534681ff7da661f2797fb291",
+      "model-00002-of-00004.safetensors": "187a34b15e56431df606d070a344a62623c06747b1f2af37bd59861f92b3064a",
+      "model-00003-of-00004.safetensors": "97b3ffda1440e86745ac4340074b44b8d88e4fce21fbe1b6b9a9d71b9f7d4950",
+      "model-00004-of-00004.safetensors": "77e252c6b3861ddb886f37da911c23eec956c575efd33e188139064916ebd2ee"
+    }
+  },
+  "adapter": {
+    "repo_id": "QCRI/LLMxCPG-D",
+    "url": "https://huggingface.co/QCRI/LLMxCPG-D",
+    "revision": "91e6c0d0e8ea645047c237166b1403262d116a92",
+    "sha256": {
+      "adapter_model.safetensors": "5cdb6133af159aecdfd884d89b887938f2de9fcd125838697f1697d34a4aecab"
+    },
+    "reported_config": {
+      "peft_type": "LORA",
+      "task_type": "CAUSAL_LM",
+      "r": 64,
+      "lora_alpha": 32,
+      "use_rslora": true
+    }
+  },
+  "source_code": {
+    "url": "https://github.com/qcri/llmxcpg",
+    "archive_url": "https://zenodo.org/records/15614095",
+    "reported_archive_short_identifier": "d49afdd",
+    "full_commit": null
+  }
+}
